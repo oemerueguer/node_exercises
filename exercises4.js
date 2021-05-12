@@ -2,7 +2,7 @@
 // In a file `exercise4.js`:
 // Write the work done in the previous exercises in ES5 or ES6 (depending which version you used).
 
-// you need to add functio,  delete =>,  and add throw to err
+// Explanation: you need to add functio,  delete =>,  and add throw to err
 
 const fs = require('fs');
 
