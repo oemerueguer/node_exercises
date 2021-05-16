@@ -3,7 +3,8 @@
 // Install the module [axios](https://github.com/axios/axios) and retrieve the html code from `google.com`.
 // I created/ wrote a html file to save the outout. By using Prettier on VSCode, you can see the code formatted
 
-const axios = require('axios');
+const axios = require('axios')
+const fs = require('fs')
 
 axios.get('http://google.com')
   .then((response) => {
@@ -14,4 +15,4 @@ axios.get('http://google.com')
   })
   .catch((error) => {
     console.log(error);
- });
+ })
